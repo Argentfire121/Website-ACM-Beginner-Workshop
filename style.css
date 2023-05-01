@@ -1,0 +1,48 @@
+div {
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    margin-top: -20px;
+}
+
+.lowerDiv {
+    padding: 50px;
+    margin: 10px; 
+    background-color: lightgreen;
+}
+
+p {
+    justify-items: center;
+    font-family: Roboto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    color: grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: greenyellow;
+}
+
+body{
+    padding-top: 20px;
+  }
